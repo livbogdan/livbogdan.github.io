@@ -4,102 +4,51 @@
 
 <head>
     <meta charset="utf-8">
-    <title>livbogdan</title>
+    <title>Contact Me</title>
+        <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
-<body style="background-color: aquamarine;">
-    <!--
-        <img src="4846413.jpg" alt="My Avatar" width="512" height="512">
-    -->
+<body>
+
     <center>
-        <table cellspacing = "10">
-            <tr>
-                <td>
-                    <h4 style="color: rgb(13, 13, 13);"><a href="index.html">Home</a></h4>
-      
-                </td>
-                
-                <td>
-                    <h4 style="color: rgb(13, 13, 13);" ><a href="specialization.html">Specialization</a></h4>
-                </td>
-    
-                <td>
-                    <h4 style="color: rgb(13, 13, 13);"><a href="Contact.html">Contact Info</a></h4>
-                </td>
-            </tr>
-            
-        </table>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="Contact.html">Contact</a>
+          </div>
+          
+          <div style="padding-left:16px">
+          </div>
     </center>
 
+
         
-        <h1 style="font-size: 300%; color: rgb(69, 129, 232);">CONTCT INFO</h1>
+    <h1>My contact Details</h1>
         
-
-    <hr size="4" color="black">        
-
-    <table border="1": cellspacing = "10">
-        <!--E-mail table row-->
-        <tr>
-            <td>
-                <p>&#9993;<strong>  E-mail</strong></p>
-            </td>
-
-            <td>
-                <p><em> my_mail@gmail.com</em></p>
-            </td>
-        </tr>
-        <!--Adress table row-->
-        <tr>
-            <td>
-                <p>&#127969;<strong>  Address</strong></p>
-            </td>
-
-            <td>
-                <p>Sollentuna</p>
-            </td>
-        </tr>
-        <!--Phone Number row-->
-        <tr>
-            <td>
-                <p>&#128222;<strong>Phone nummber</strong></p>
-            </td>
-
-            <td>
-                <p><em> (+46)7xxxxxxxx</em></p>
-            </td>
-        </tr>
-
-    </table>
-
-    <hr>
-    <div>
-        <form class="" action="index.html" method="post">
-            <label for="username">User:</labelpla>
-            <input type="text" id="username" placeholder="username">
-            <br><br>
-            <label for="E-mail">E:mail:</label>
-            <input type="text" id="E-mail" placeholder=" e- mail">
-            <br><br>
-            <label for="password">Password:</label>
-            <input type="password" id="password">
-            <br><br>
-            </form>
-    </div>
-
-    <hr>
-
-    <label for="question"> s question
-        <select name="question" id="question">
-            <option value="q1"> qvad</option>
-        </select>
-    </label>
-
+    <p>My Address:</p>
+    <p>My Phone:</p>
+    <p>My Mail:</p>
+<div>
+    <hr size="4" color="black"> 
     
-    <br><br>
+    <form action="mailto: livanovbog@gmail.com" method="post" enctype="text/plain">
+        <label>Your name:</label><br>
+        <input type="text" name="yourName" value="">
+        <br><br>
 
-    <label for="about"></label>
-   
-    <hr size="4" color="black">
+        <label>Your E-mail:</label><br>
+        <input type="email" name="yourEmail" value="">
+        <br><br>
+
+        <label>Your Messege:</label><br>
+        <textarea name="yourMessege" rows="10"></textarea>
+        <br><br>
+
+        <input type="submit" name="">
+    </form>
+
+<hr size="4" color="black">
+</div>
+
 
 
 </body>
