@@ -1,59 +1,240 @@
 /*-----------------TAG SELECTORS---------------*/
-
-
 body
 {
-    background-color: #222831;
+    background-color: #DDF5F7;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, sans-serif;
+    text-align: center;
 }
 
 hr
 {
     border-style: none;
     border-top-style:double;
-    border-color: #00ADB5;
+    border-color: #44679F;
     border-width: 5px;
-    width: 50%; 
+    width: 100%; 
 }
 
 h1
 {
-    color: #EEEEEE;
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
 }
 
-h3
+h2,h3,h4
 {
-    color: #656565;
+    font-family: 'Carter One', cursive;
+    position: relative;
+    margin: 0;
 }
 
+* {
+    box-sizing: border-box;
+  }
+  
+img 
+{
+    vertical-align: middle;
+}
 /*-----------------CLASS SELECTORS---------------*/
 
-.topnav {
+.topnav 
+    {    
     overflow: hidden;
-    background-color: #333;
-  }
+    background-color: #C0D9E5;
+    font-family: 'Carter One', cursive;
+       
+    }
   
   .topnav a 
-  {
+    {
     float: right;
-    color: #f2f2f2;
+    color: #000000;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+    padding: 20px 20px;
+    text-decoration: #C0D9E5;
+    font-size: 20px;
+    }
   
   .topnav a:hover 
-  {
-    background-color: #ddd;
-    color: black;
-  }
+    {
+    background-color: #44679F;
+    color: #000000;
+    }
   
   .topnav a.active 
-  {
-    background-color: #04AA6D;
+    {
+    background-color: #3B577D;
+    color: #000000;
+    }
+
+    .top-Container
+    {
+        height: 300px;        
+        text-align: center;
+        will-change: auto;
+        top: 40px;
+    }
+
+
+    .header
+    {
+    color: #3B577D;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    }
+    .header h1
+    {
+        font-size: 50px;
+    }
+
+    .school
+    {
+        text-align: left;
+        left: 30px;
+        position: relative;
+        size: 50%;    
+    }
+    .school h1
+    {
+        font-family: 'Carter One', cursive;
+        position: relative;
+        margin: 0;
+        font-size: 30px;
+    }
+    .school h2
+    {
+        font-family: 'Carter One', cursive;
+        position: relative;
+        margin: 0;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
+    .school p
+    {
+        margin: 0;
+        text-decoration: underline;
+    }
+
+    .botContainer
+    {
+        height: 100px;
+        background-size: 100px;
+        background-color: #C0D9E5;
+    }
+
+
+
+.educationIMG
+{
+    width: 5%;
+    position: inherit;
+    right: 10px;
+    top: 10px;
+}
+
+.aboutMeIMG
+{
+    width: 5%;
+    position: inherit;
+    right: 10px;
+    top: 10px;
+    
+}
+
+.workexpIMG
+{
+    width: 5%;
+    position: inherit;
+    right: 10px;
+    top: 10px;
+    
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
     color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
   }
 
 /*-----------------ID SELECTORS--------------- */
