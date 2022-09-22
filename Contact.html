@@ -2,24 +2,42 @@
 
 <html>
 
-<head>
-    <meta charset="utf-8">
-    <title>Contact Me</title>
-    <link rel="stylesheet" href="CSS/styles.css">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>livbogdan</title>
+        <link rel="stylesheet" href="CSS/styles.css">
+        <link rel="icon" href="icon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Great+Vibes&display=swap" rel="stylesheet">
+    </head>
 
 <body>
 
+    <script src="index.js"></script>
 
-        <div class="topnav">
-            <a href="index.html">Home</a>
-            <a class="active" href="Contact.html">Contact</a>
-          </div>
-          
-          <div style="padding-left:16px">
-          </div>
+    <!--           Top Navigation Menu            -->
 
-        
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="Contact.html" class="active">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">Portfolio
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="alcotraz.html">Alcotraz</a>
+            <a href="kubikos.html">KUBIKOS</a>
+            <a href="#">Polygon World VR</a>
+          </div>
+        </div> 
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="headerFunction()">&#9776;</a>
+    </div>
+
+    <!--           Top Navigation Menu            -->
+
+
+
     <h1>My contact Details</h1>
         
     <p>My Address:</p>
@@ -34,15 +52,15 @@
 
     <form action="mailto: livanovbog@gmail.com" method="post" enctype="text/plain">
         <label>Your name:</label><br>
-        <input type="text" name="yourName" value="">
+        <input type="text" value="">
         <br><br>
 
         <label>Your E-mail:</label><br>
-        <input type="email" name="yourEmail" value="">
+        <input type="email" value="">
         <br><br>
 
         <label>Your Messege:</label><br>
-        <textarea name="yourMessege" rows="10"></textarea>
+        <textarea rows="10"></textarea>
         <br><br>
 
         <input type="submit" name="">
