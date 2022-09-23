@@ -40,6 +40,11 @@ li
 {
   padding: 5px;
 }
+
+p
+{
+  text-align: center;
+}
 /*-----------------CLASS SELECTORS---------------*/
 
 .topnav 
@@ -155,13 +160,6 @@ li
   background-color: #C0D9E5;
 }
 
-.description
-{
-  position: relative;
-  padding-top: 100px;
-  left: 50px;
-  width: 520px;
-}
 
 .description p
 {
@@ -280,6 +278,14 @@ li
 }
 
 /*-----------------ID SELECTORS--------------- */
+
+#description
+{
+  position: relative;
+  padding-top: 100px;
+  left: 50px;
+  width: 520px;
+}
 
 @media screen and (max-width: 600px)
 {
